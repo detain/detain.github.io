@@ -1,0 +1,5 @@
+language: ruby
+rvm:
+- 2.7.0
+script:
+- bundle exec jekyll build && bundle exec htmlproof ./_site

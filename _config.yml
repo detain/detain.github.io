@@ -1,0 +1,22 @@
+title: Detains Development Blog
+email: detain@interserver.net
+description: Get the latest information on my varied development projects.
+baseurl: ''
+url: ''
+twitter_username: lorddetain
+github_username: detain
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-optional-front-matter
+  - jekyll-github-metadata
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-relative-links
+  - jemoji
+relative_links:
+  enabled: true
+  collections: true
+jekyll_admin:
+  homepage: pages
